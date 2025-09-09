@@ -1,1 +1,13 @@
-/* Add CSS Styling */
+.dark-bg, .light-bg {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.dark-bg {
+    background-color: #000;
+    color: #fff;
+}
+
+.light-bg {
+    background-color: rgb(254,255,1);
+}
