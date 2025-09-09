@@ -1,1 +1,25 @@
-/* Add CSS Styling */
+.odd-number {
+    background-color: #ffb5b5;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+ .big-text {
+    font-size: 24px;
+}
+
+#second-element {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+/*
+ * For the #fourth-element i had duplicated code for the font-size,
+ * however, being that the only difference between my code and the solution's one
+ * (apart from classes and id names, and color shades) i decided to integrate this good 
+ * practice adding the .big-text class to the fourth-element
+ * */
+ #fourth-element {
+     background-color: hsl(132 100% 61.9%);
+     font-weight: bold;
+
+ }
